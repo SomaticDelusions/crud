@@ -1,0 +1,36 @@
+Developed By: Sean Glover
+
+Purpose:
+Write a menu driven program that will 
+  view all people
+  add, delete, update a person (Create, Read, Update, Delete)
+  view all people that begin with a user provided letter (case-insensitive)
+  view youngest and oldest person
+  view all people younger than 21
+  A person is represented by a name and an age. Use parallel arrays to manage a list of names and their ages.  
+    For example, 
+      names = [“tom”,”dick”,”harry”]
+      ages = [35,53,23]
+    The values at each index are related to each other so if you perform CRUD actions to one you have to do perform it also on the other.  
+      ie. names[0] is related to ages[0].  names[0] 's age is 35.
+
+Initialize program with the 2 hard coded arrays above for names and ages so that you have some starting data
+
+When printing list people, make the reports list both the name and the age for each record, like:
+  Tom	  35
+  Dick	  53
+  Harry	  23
+
+Make menu like:
+
+1. View all people
+2. Add a new person
+3. Update an existing person
+4. Delete a person
+
+5. View all people that start with a letter
+6. View all people younger than 21
+7. View Oldest Person
+8. View Youngest Person
+
+9. Quit
